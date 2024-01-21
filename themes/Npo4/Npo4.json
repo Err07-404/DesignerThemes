@@ -1,0 +1,127 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "wallpaper",
+      "time_label",
+      "temp"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "temp" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~",
+          "x" : "FR~",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(227, 226, 74, 1.00)",
+        "type" : "UILabel",
+        "fontColorAttr" : "none",
+        "numberOfLines" : "1",
+        "data" : "[temperature]°[temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "30",
+        "fontName" : "Shoguns Clan.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "wallpaper" : {
+        "userInteraction" : "YES",
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "screen_height"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "wall" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "screen_width",
+              "height" : "screen_height"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleToFill",
+            "animation" : "none",
+            "cornerRadius" : "0",
+            "imageURL" : "https:\/\/i.imgur.com\/Assy69d_d.webp?maxwidth=1520&fidelity=grand",
+            "type" : "UIImageView",
+            "actions" : "none"
+          }
+        },
+        "childorder" : "wall",
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "time_label" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "73",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "kerning" : 4,
+        "dataAttr" : "none",
+        "textColor" : "rgba(227, 226, 74, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "100",
+        "fontName" : "Shoguns Clan.ttf",
+        "textShadow" : {
+          "y" : 3,
+          "radius" : 3,
+          "x" : 0,
+          "color" : "rgba(84, 17, 7, 0.00)"
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      }
+    }
+  }
+}
