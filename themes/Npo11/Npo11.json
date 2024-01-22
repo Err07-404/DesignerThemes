@@ -1,0 +1,316 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "wall",
+      "timecont",
+      "loc",
+      "temp"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "timecont" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "25",
+          "x" : "-130",
+          "width" : "800",
+          "height" : "400"
+        },
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "L" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "1",
+              "x" : "14",
+              "width" : "800",
+              "height" : "400"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "2",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 0, 0, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "330",
+            "fontName" : "almonte.otf",
+            "textShadow" : {
+              "y" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)",
+              "x" : 0,
+              "radius" : "4"
+            },
+            "cornerRadius" : 0,
+            "fontNameAttr" : "none"
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "0",
+              "x" : "10",
+              "width" : "800",
+              "height" : "400"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : 4,
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "gradientImage" : "clouds.png",
+            "fontSizeAttr" : "none",
+            "fontSize" : "330",
+            "fontName" : "almonte.otf",
+            "textShadow" : {
+              "y" : 3,
+              "color" : "rgba(0,0,0,0)",
+              "x" : 0,
+              "radius" : 3
+            },
+            "cornerRadius" : 0,
+            "fontNameAttr" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time_label,L",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0.35",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "loc" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "80",
+          "x" : "-185",
+          "width" : "800",
+          "height" : "450"
+        },
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "L_1" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "1",
+              "x" : "19",
+              "width" : "800",
+              "height" : "400"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "2",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 0, 0, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[city]",
+            "borderWidth" : 0,
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "190",
+            "fontName" : "almonte.otf",
+            "textShadow" : {
+              "y" : "0",
+              "radius" : "4",
+              "x" : 0,
+              "color" : "rgba(0, 0, 0, 1.00)"
+            },
+            "cornerRadius" : 0,
+            "fontNameAttr" : "none"
+          },
+          "time_label_1" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "0",
+              "x" : "10",
+              "width" : "800",
+              "height" : "400"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : 4,
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[city]",
+            "borderWidth" : 0,
+            "gradientImage" : "clouds.png",
+            "fontSizeAttr" : "none",
+            "fontSize" : "190",
+            "fontName" : "almonte.otf",
+            "textShadow" : {
+              "y" : 3,
+              "radius" : 3,
+              "x" : 0,
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : 0,
+            "fontNameAttr" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time_label_1,L_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0.20",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "temp" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "frame" : {
+          "y" : "135",
+          "x" : "-163",
+          "width" : "800",
+          "height" : "450"
+        },
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "L_1_1" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "1",
+              "x" : "13",
+              "width" : "800",
+              "height" : "400"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "2",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 0, 0, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[temperature]°[temptype]",
+            "borderWidth" : 0,
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "fontSize" : "190",
+            "fontName" : "almonte.otf",
+            "textShadow" : {
+              "y" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)",
+              "x" : 0,
+              "radius" : "4"
+            },
+            "cornerRadius" : 0,
+            "fontNameAttr" : "none"
+          },
+          "time_label_1_1" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "0",
+              "x" : "10",
+              "width" : "800",
+              "height" : "400"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : 4,
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[temperature]°[temptype]",
+            "borderWidth" : 0,
+            "gradientImage" : "clouds.png",
+            "fontSizeAttr" : "none",
+            "fontSize" : "190",
+            "fontName" : "almonte.otf",
+            "textShadow" : {
+              "y" : 3,
+              "color" : "rgba(0,0,0,0)",
+              "x" : 0,
+              "radius" : 3
+            },
+            "cornerRadius" : 0,
+            "fontNameAttr" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time_label_1_1,L_1_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0.25",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "wall" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "view_width",
+          "height" : "1112"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "https:\/\/i.imgur.com\/qrTVNCI_d.webp?maxwidth=1520&fidelity=grand",
+        "type" : "UIImageView",
+        "actions" : "none",
+        "imageFolder" : "none"
+      }
+    }
+  }
+}
