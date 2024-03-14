@@ -162,7 +162,7 @@
               "width" : "150",
               "height" : "40"
             },
-            "fontName" : "NeonBlue-Regular-sbix.ttf",
+            "fontName" : "NeonBlue-Regular.ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(255,255,255,1.0)",
@@ -194,7 +194,7 @@
               "width" : "150",
               "height" : "40"
             },
-            "fontName" : "NeonOff-Regular-sbix.ttf",
+            "fontName" : "NeonOff-Regular.ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(255,255,255,1.0)",
@@ -343,7 +343,7 @@
                       "width" : "view_width",
                       "height" : "250"
                     },
-                    "fontName" : "NeonBlue-Regular-sbix.ttf",
+                    "fontName" : "NeonBlue-Regular.ttf",
                     "fontColorAttr" : "none",
                     "dataAttr" : "none",
                     "textColor" : "rgba(255,255,255,1.0)",
@@ -414,7 +414,7 @@
                       "width" : "view_width",
                       "height" : "250"
                     },
-                    "fontName" : "NeonOff-Regular-sbix.ttf",
+                    "fontName" : "NeonOff-Regular.ttf",
                     "fontColorAttr" : "none",
                     "dataAttr" : "none",
                     "textColor" : "rgba(255,255,255,1.0)",
@@ -619,7 +619,7 @@
                   "width" : "view_width",
                   "height" : "250"
                 },
-                "fontName" : "NeonBlue-Regular-sbix.ttf",
+                "fontName" : "NeonBlue-Regular.ttf",
                 "fontColorAttr" : "none",
                 "dataAttr" : "none",
                 "textColor" : "rgba(255,255,255,1.0)",
@@ -730,7 +730,7 @@
                   "width" : "view_width",
                   "height" : "250"
                 },
-                "fontName" : "NeonOff-Regular-sbix.ttf",
+                "fontName" : "NeonOff-Regular.ttf",
                 "fontColorAttr" : "none",
                 "dataAttr" : "none",
                 "textColor" : "rgba(255,255,255,1.0)",
@@ -801,7 +801,7 @@
                   "width" : "view_width",
                   "height" : "250"
                 },
-                "fontName" : "WNeonON-sbix.ttf",
+                "fontName" : "WNeonON.ttf",
                 "fontColorAttr" : "none",
                 "dataAttr" : "none",
                 "textColor" : "rgba(255,255,255,1.0)",
@@ -909,7 +909,7 @@
                   "width" : "view_width",
                   "height" : "250"
                 },
-                "fontName" : "NeonBlue-Regular-sbix.ttf",
+                "fontName" : "NeonBlue-Regular.ttf",
                 "fontColorAttr" : "none",
                 "dataAttr" : "none",
                 "textColor" : "rgba(255,255,255,1.0)",
@@ -978,7 +978,7 @@
                   "width" : "view_width",
                   "height" : "250"
                 },
-                "fontName" : "NeonOff-Regular-sbix.ttf",
+                "fontName" : "NeonOff-Regular.ttf",
                 "fontColorAttr" : "none",
                 "dataAttr" : "none",
                 "textColor" : "rgba(255,255,255,1.0)",
@@ -1145,7 +1145,7 @@
               "width" : "490",
               "height" : "270"
             },
-            "fontName" : "NeonRed-Regular-sbix.ttf",
+            "fontName" : "NeonRed-Regular.ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(255,255,255,1.0)",
