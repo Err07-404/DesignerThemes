@@ -1,0 +1,168 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "container" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "FB~99",
+          "x" : "FR~7",
+          "width" : "700",
+          "height" : "400"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "batteryBar" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "140",
+              "x" : "-60",
+              "width" : "480",
+              "height" : "320"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "batt_1" : {
+                "radius" : "2",
+                "lowColor" : "rgba(255,0,0,1.0)",
+                "backColor" : "rgba(0, 0, 0, 0.00)",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "480",
+                  "height" : "320"
+                },
+                "midColor" : "rgba(255,153,64,1.0)",
+                "borderWidth" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "type" : "BatteryBar",
+                "gradientImage" : "battfrontPhone.png",
+                "innerColor" : "rgba(0,255,0,1.0)"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "batt_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0.75",
+            "gradientImage" : "battfrontorangePhone.png",
+            "borderColor" : "rgba(255,255,255,0)",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "animation" : "none",
+            "cutWithView" : "none"
+          },
+          "date" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "255",
+              "x" : "315",
+              "width" : "450",
+              "height" : "140"
+            },
+            "fontName" : "80sClockDate.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "35",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "  [monthnumber]\/[date]\/[shortyear]",
+            "numberOfLines" : "1"
+          },
+          "time_label" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "180",
+              "x" : "130",
+              "width" : "580",
+              "height" : "180"
+            },
+            "fontName" : "80sClockDate.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "80",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "-1",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "  [paddedhour]:[minute]",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time_label,date,batteryBar",
+        "rotate" : "270",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0.65",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "userInteraction" : "YES",
+        "animation" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)"
+      }
+    }
+  }
+}
