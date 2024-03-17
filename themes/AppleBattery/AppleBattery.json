@@ -27,7 +27,7 @@
           "height" : "110"
         },
         "triggerOnUnlock" : "none",
-        "showWhenCharging" : "YES",
+        "showWhenCharging" : "NO",
         "borderWidth" : "0",
         "backgroundColor" : "rgba(255, 255, 255, 0.00)",
         "showWhenPlaying" : "NO",
