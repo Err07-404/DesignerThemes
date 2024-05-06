@@ -1,0 +1,258 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "2" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "userInteraction" : "YES",
+        "frame" : {
+          "y" : "FB~0",
+          "x" : "FR~0",
+          "width" : "300",
+          "height" : "200"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "temp" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "FB~0",
+              "x" : "FR~98",
+              "width" : "300",
+              "height" : "80"
+            },
+            "fontName" : "cumulus.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentRight",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "68",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[temperature]°[temptype]",
+            "numberOfLines" : "1"
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "FB~0",
+              "x" : "FR~0",
+              "width" : "100",
+              "height" : "100"
+            },
+            "forecast" : "none",
+            "imageIsBlack" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "MonolyphFlat",
+            "imageColor" : "none"
+          },
+          "cond" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "FB~71",
+              "x" : "FR~7",
+              "width" : "300",
+              "height" : "80"
+            },
+            "fontName" : "cumulus.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentRight",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "47",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[condition]",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "cond,icon,temp",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "animation",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : {
+          "2" : "{ alpha:1,speed:0.7,toggle:yes,wait:3,}",
+          "1" : "{ alpha:0,speed:0.7,toggle:yes,wait:3,}"
+        },
+        "blurColor" : "dark"
+      },
+      "1" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "FB~0",
+          "x" : "FR~0",
+          "width" : "300",
+          "height" : "200"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "date" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "FB~71",
+              "x" : "FR~7",
+              "width" : "300",
+              "height" : "80"
+            },
+            "fontName" : "cumulus.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentRight",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "47",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[monthnumber]\/[date]\/[year]",
+            "numberOfLines" : "1"
+          },
+          "time_label" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "FR~5",
+              "width" : "300",
+              "height" : "80"
+            },
+            "fontName" : "Zimbra-Bold.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentRight",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "84",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "4",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[paddedhour]:[minute]",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "date,time_label",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "triggerScreenOn:2, triggerScreenOff:1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "userInteraction" : "YES",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none"
+      },
+      "week" : {
+        "scale" : "1",
+        "textStyle" : "uppercase",
+        "frame" : {
+          "y" : "0",
+          "x" : "center",
+          "width" : "300",
+          "height" : "50"
+        },
+        "backgroundColor" : "rgba(0,0,0,0)",
+        "textColor" : "rgba(255,255,255,1)",
+        "type" : "WeekWidget",
+        "selectCornerRadius" : "15",
+        "fontSize" : "12",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontName" : "PingFangTC-Medium",
+        "cornerRadius" : "20",
+        "selectColor" : "rgba(255,255,255,1)"
+      }
+    }
+  }
+}
