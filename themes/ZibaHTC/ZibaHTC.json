@@ -44,7 +44,7 @@
               "width" : "99",
               "height" : "125"
             },
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(233, 139, 90, 1.00)",
@@ -76,7 +76,7 @@
               "width" : "99",
               "height" : "125"
             },
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(233, 139, 90, 1.00)",
@@ -422,7 +422,7 @@
               "width" : "99",
               "height" : "125"
             },
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(214, 86, 105, 0.23)",
@@ -467,7 +467,7 @@
               "width" : "99",
               "height" : "125"
             },
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "fontColorAttr" : "none",
             "dataAttr" : "none",
             "textColor" : "rgba(214, 86, 105, 0.23)",

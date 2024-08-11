@@ -284,7 +284,7 @@
         "gradientImage" : "none",
         "fontSizeAttr" : "none",
         "fontSize" : "14",
-        "fontName" : "digital-7 (mono).ttf",
+        "fontName" : "digital-7(mono).ttf",
         "textShadow" : {
           "y" : "3",
           "color" : "rgba(0,0,0,0)",
@@ -425,7 +425,7 @@
             "gradientImage" : "none",
             "fontSizeAttr" : "none",
             "fontSize" : "100",
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "textShadow" : {
               "y" : 3,
               "color" : "rgba(0,0,0,0)",
@@ -456,7 +456,7 @@
             "gradientImage" : "none",
             "fontSizeAttr" : "none",
             "fontSize" : "100",
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0,0,0,0)",
@@ -486,7 +486,7 @@
             "gradientImage" : "none",
             "fontSizeAttr" : "none",
             "fontSize" : "100",
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "textShadow" : {
               "y" : "3",
               "color" : "rgba(0,0,0,0)",
@@ -515,7 +515,7 @@
             "gradientImage" : "none",
             "fontSizeAttr" : "none",
             "fontSize" : "100",
-            "fontName" : "digital-7 (mono).ttf",
+            "fontName" : "digital-7(mono).ttf",
             "textShadow" : {
               "y" : 3,
               "color" : "rgba(0,0,0,0)",
