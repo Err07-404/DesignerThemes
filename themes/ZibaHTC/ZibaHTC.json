@@ -3,22 +3,22 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "x" : "0",
+      "width" : "screen_width"
     },
     "children" : {
       "htccont" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "blurColor" : "dark",
         "frame" : {
-          "y" : "center",
+          "y" : "-15",
           "x" : "center",
           "width" : "375",
           "height" : "667"
@@ -33,9 +33,9 @@
           "hour" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -65,9 +65,9 @@
           "min" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -120,9 +120,9 @@
           "temp" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -149,12 +149,271 @@
             "data" : "[temperature]°[temptype]",
             "numberOfLines" : "1"
           },
+          "5daycont" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "userInteraction" : "YES",
+            "frame" : {
+              "y" : "150",
+              "x" : "27",
+              "width" : "320",
+              "height" : "100"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "followWidthOffset" : "x,y",
+            "children" : {
+              "5day" : {
+                "cornerRadius" : 10,
+                "frame" : {
+                  "y" : "0",
+                  "x" : "11",
+                  "width" : "298",
+                  "height" : "100"
+                },
+                "backgroundColor" : "rgba(0, 0, 0, 0.00)",
+                "type" : "UIView",
+                "children" : {
+                  "weather_icon4" : {
+                    "frame" : {
+                      "y" : "25",
+                      "x" : "185",
+                      "width" : "50",
+                      "height" : "40"
+                    },
+                    "forecast" : "day4",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "Z1ba"
+                  },
+                  "day1lowhi" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day1high]°\/[day1low]°",
+                    "frame" : {
+                      "y" : "65",
+                      "x" : "0",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "PingFangTC-Regular",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(228, 104, 112, 1.00)"
+                  },
+                  "day2lowhi" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day2high]°\/[day2low]°",
+                    "frame" : {
+                      "y" : "65",
+                      "x" : "60",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "PingFangTC-Regular",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(228, 104, 112, 1.00)"
+                  },
+                  "day3lowhi" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day3high]°\/[day3low]°",
+                    "frame" : {
+                      "y" : "65",
+                      "x" : "120",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "PingFangTC-Regular",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(228, 104, 112, 1.00)"
+                  },
+                  "day5day" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day5shortday]",
+                    "frame" : {
+                      "y" : "15",
+                      "x" : "240",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "Bauhaus.ttf",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(233, 139, 90, 1.00)"
+                  },
+                  "day4day" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day4shortday]",
+                    "frame" : {
+                      "y" : "15",
+                      "x" : "180",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "Bauhaus.ttf",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(233, 139, 90, 1.00)"
+                  },
+                  "weather_icon5" : {
+                    "frame" : {
+                      "y" : "25",
+                      "x" : "245",
+                      "width" : "50",
+                      "height" : "40"
+                    },
+                    "forecast" : "day5",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "Z1ba"
+                  },
+                  "day3day" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day3shortday]",
+                    "frame" : {
+                      "y" : "15",
+                      "x" : "120",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "Bauhaus.ttf",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(233, 139, 90, 1.00)"
+                  },
+                  "day4lowhi" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day4high]°\/[day4low]°",
+                    "frame" : {
+                      "y" : "65",
+                      "x" : "180",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "PingFangTC-Regular",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(228, 104, 112, 1.00)"
+                  },
+                  "day5lowhi" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day5high]°\/[day5low]°",
+                    "frame" : {
+                      "y" : "65",
+                      "x" : "240",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "PingFangTC-Regular",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(228, 104, 112, 1.00)"
+                  },
+                  "day2day" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day2shortday]",
+                    "frame" : {
+                      "y" : "15",
+                      "x" : "60",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "Bauhaus.ttf",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(233, 139, 90, 1.00)"
+                  },
+                  "day1day" : {
+                    "fontSize" : "FH",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "numberOfLines" : "1",
+                    "data" : "[day1shortday]",
+                    "frame" : {
+                      "y" : "15",
+                      "x" : "0",
+                      "width" : "60",
+                      "height" : "10"
+                    },
+                    "fontName" : "Bauhaus.ttf",
+                    "type" : "UILabel",
+                    "textColor" : "rgba(233, 139, 90, 1.00)"
+                  },
+                  "weather_icon2" : {
+                    "frame" : {
+                      "y" : "25",
+                      "x" : "65",
+                      "width" : "50",
+                      "height" : "40"
+                    },
+                    "forecast" : "day2",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "Z1ba"
+                  },
+                  "weather_icon1" : {
+                    "frame" : {
+                      "y" : "25",
+                      "x" : "5",
+                      "width" : "50",
+                      "height" : "40"
+                    },
+                    "forecast" : "day1",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "Z1ba"
+                  },
+                  "weather_icon3" : {
+                    "frame" : {
+                      "y" : "25",
+                      "x" : "125",
+                      "width" : "50",
+                      "height" : "40"
+                    },
+                    "forecast" : "day3",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "Z1ba"
+                  }
+                },
+                "childorder" : "day5day,day4day,day1lowhi,weather_icon5,day2lowhi,day3lowhi,day3day,weather_icon4,day4lowhi,day5lowhi,weather_icon3,day2day,weather_icon2,day1day,weather_icon1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "5day",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0.90",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "followWidthItem" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none",
+            "blurColor" : "dark"
+          },
           "hourbase" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -197,9 +456,9 @@
           "minbase" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -230,7 +489,7 @@
         "blurAlpha" : "0",
         "cornerRadius" : "5",
         "type" : "UIView",
-        "childorder" : "min,minbase,hour,hourbase,temp,wicon,htcbase",
+        "childorder" : "5daycont,min,minbase,hour,hourbase,temp,wicon,htcbase",
         "rotate" : "0",
         "blurIntensity" : "10",
         "alpha" : "1",
@@ -239,270 +498,11 @@
         "gradientImage" : "none",
         "maskURL" : "none",
         "followWidthItem" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
         "actions" : "none",
         "userInteraction" : "YES",
-        "cutWithView" : "none",
-        "borderColor" : "rgba(255,255,255,0)",
-        "animation" : "none"
-      },
-      "5daycont" : {
-        "boxShadow" : {
-          "y" : "3",
-          "color" : "rgba(0,0,0,0)",
-          "x" : "0",
-          "radius" : "3"
-        },
         "animation" : "none",
-        "frame" : {
-          "y" : "150",
-          "x" : "center",
-          "width" : "320",
-          "height" : "100"
-        },
-        "triggerOnUnlock" : "none",
-        "showWhenCharging" : "NO",
-        "borderWidth" : "0",
-        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
-        "showWhenPlaying" : "NO",
-        "followWidthOffset" : "x,y",
-        "children" : {
-          "5day" : {
-            "cornerRadius" : 10,
-            "frame" : {
-              "y" : "0",
-              "x" : "11",
-              "width" : "298",
-              "height" : "100"
-            },
-            "backgroundColor" : "rgba(0, 0, 0, 0.00)",
-            "childorder" : "day5day,day4day,day1lowhi,weather_icon5,day2lowhi,day3lowhi,day3day,weather_icon4,day4lowhi,day5lowhi,weather_icon3,day2day,weather_icon2,day1day,weather_icon1",
-            "children" : {
-              "weather_icon4" : {
-                "frame" : {
-                  "y" : "25",
-                  "x" : "185",
-                  "width" : "50",
-                  "height" : "40"
-                },
-                "forecast" : "day4",
-                "type" : "WeatherIcon",
-                "iconSet" : "Z1ba"
-              },
-              "day1lowhi" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day1high]°\/[day1low]°",
-                "frame" : {
-                  "y" : "65",
-                  "x" : "0",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "PingFangTC-Regular",
-                "type" : "UILabel",
-                "textColor" : "rgba(228, 104, 112, 1.00)"
-              },
-              "day2lowhi" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day2high]°\/[day2low]°",
-                "frame" : {
-                  "y" : "65",
-                  "x" : "60",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "PingFangTC-Regular",
-                "type" : "UILabel",
-                "textColor" : "rgba(228, 104, 112, 1.00)"
-              },
-              "day3lowhi" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day3high]°\/[day3low]°",
-                "frame" : {
-                  "y" : "65",
-                  "x" : "120",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "PingFangTC-Regular",
-                "type" : "UILabel",
-                "textColor" : "rgba(228, 104, 112, 1.00)"
-              },
-              "day5day" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day5shortday]",
-                "frame" : {
-                  "y" : "15",
-                  "x" : "240",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "Bauhaus.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(233, 139, 90, 1.00)"
-              },
-              "day4day" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day4shortday]",
-                "frame" : {
-                  "y" : "15",
-                  "x" : "180",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "Bauhaus.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(233, 139, 90, 1.00)"
-              },
-              "weather_icon5" : {
-                "frame" : {
-                  "y" : "25",
-                  "x" : "245",
-                  "width" : "50",
-                  "height" : "40"
-                },
-                "forecast" : "day5",
-                "type" : "WeatherIcon",
-                "iconSet" : "Z1ba"
-              },
-              "day3day" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day3shortday]",
-                "frame" : {
-                  "y" : "15",
-                  "x" : "120",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "Bauhaus.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(233, 139, 90, 1.00)"
-              },
-              "day4lowhi" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day4high]°\/[day4low]°",
-                "frame" : {
-                  "y" : "65",
-                  "x" : "180",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "PingFangTC-Regular",
-                "type" : "UILabel",
-                "textColor" : "rgba(228, 104, 112, 1.00)"
-              },
-              "day5lowhi" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day5high]°\/[day5low]°",
-                "frame" : {
-                  "y" : "65",
-                  "x" : "240",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "PingFangTC-Regular",
-                "type" : "UILabel",
-                "textColor" : "rgba(228, 104, 112, 1.00)"
-              },
-              "day2day" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day2shortday]",
-                "frame" : {
-                  "y" : "15",
-                  "x" : "60",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "Bauhaus.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(233, 139, 90, 1.00)"
-              },
-              "day1day" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day1shortday]",
-                "frame" : {
-                  "y" : "15",
-                  "x" : "0",
-                  "width" : "60",
-                  "height" : "10"
-                },
-                "fontName" : "Bauhaus.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(233, 139, 90, 1.00)"
-              },
-              "weather_icon2" : {
-                "frame" : {
-                  "y" : "25",
-                  "x" : "65",
-                  "width" : "50",
-                  "height" : "40"
-                },
-                "forecast" : "day2",
-                "type" : "WeatherIcon",
-                "iconSet" : "Z1ba"
-              },
-              "weather_icon1" : {
-                "frame" : {
-                  "y" : "25",
-                  "x" : "5",
-                  "width" : "50",
-                  "height" : "40"
-                },
-                "forecast" : "day1",
-                "type" : "WeatherIcon",
-                "iconSet" : "Z1ba"
-              },
-              "weather_icon3" : {
-                "frame" : {
-                  "y" : "25",
-                  "x" : "125",
-                  "width" : "50",
-                  "height" : "40"
-                },
-                "forecast" : "day3",
-                "type" : "WeatherIcon",
-                "iconSet" : "Z1ba"
-              }
-            },
-            "type" : "UIView"
-          }
-        },
-        "blurAlpha" : "0",
-        "cornerRadius" : "5",
-        "type" : "UIView",
-        "childorder" : "5day",
-        "rotate" : "0",
-        "blurIntensity" : "10",
-        "alpha" : "1",
-        "triggerOnWake" : "none",
-        "scale" : "0.90",
-        "gradientImage" : "none",
-        "maskURL" : "none",
-        "followWidthItem" : "none",
-        "cutWithView" : "none",
-        "borderColor" : "rgba(255,255,255,0)",
-        "userInteraction" : "YES",
-        "actions" : "none",
-        "blurColor" : "dark"
+        "cutWithView" : "none"
       }
     }
   }
