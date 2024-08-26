@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "Scale_me"
@@ -15,11 +15,11 @@
       "Scale_me" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "animation" : "none",
+        "actions" : "none",
         "frame" : {
           "y" : "60",
           "x" : "center",
@@ -52,9 +52,9 @@
           "city" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -123,9 +123,9 @@
           "temp" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -155,9 +155,9 @@
           "date" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -203,9 +203,9 @@
           "cond" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -251,7 +251,7 @@
         "blurAlpha" : "0",
         "cornerRadius" : "5",
         "type" : "UIView",
-        "childorder" : "batt,cell,wind,clock,temp,city,cond,date,base",
+        "childorder" : "clock,batt,cell,wind,temp,city,cond,date,base",
         "rotate" : "0",
         "blurIntensity" : "10",
         "alpha" : "1",
@@ -262,8 +262,8 @@
         "followWidthItem" : "none",
         "cutWithView" : "none",
         "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
         "userInteraction" : "YES",
-        "actions" : "none",
         "blurColor" : "dark"
       }
     }
