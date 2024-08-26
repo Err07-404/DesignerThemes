@@ -1,0 +1,271 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "Scale_me"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "Scale_me" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "animation" : "none",
+        "frame" : {
+          "y" : "60",
+          "x" : "center",
+          "width" : "300",
+          "height" : "300"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "followWidthOffset" : "x,y",
+        "children" : {
+          "wind" : {
+            "ringBackground" : "NO",
+            "alpha" : "1",
+            "ringWidth" : "1",
+            "frame" : {
+              "y" : "127",
+              "x" : "210",
+              "width" : "21",
+              "height" : "18"
+            },
+            "ringColor" : "rgba(0, 255, 255, 1.00)",
+            "ringBackgroundColor" : "rgba(0, 0, 0, 0.00)",
+            "ringCap" : "round",
+            "type" : "CircleProgress",
+            "ringValue" : "windValue"
+          },
+          "city" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "160",
+              "x" : "75",
+              "width" : "150",
+              "height" : "40"
+            },
+            "fontName" : "AAabnes.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 255, 255, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "10",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[city]",
+            "numberOfLines" : "1"
+          },
+          "base" : {
+            "SFWeight" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "SFColor" : "rgba(255,255,255,1)",
+            "frame" : {
+              "y" : "-50",
+              "x" : "-35",
+              "width" : "400",
+              "height" : "400"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "CyanClockBase.png",
+            "SFSymbolName" : "none",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          },
+          "cell" : {
+            "ringBackground" : "NO",
+            "alpha" : "1",
+            "ringWidth" : "1",
+            "frame" : {
+              "y" : "196",
+              "x" : "141",
+              "width" : "21",
+              "height" : "18"
+            },
+            "ringColor" : "rgba(0, 255, 255, 1.00)",
+            "ringBackgroundColor" : "rgba(0, 0, 0, 0.00)",
+            "ringCap" : "round",
+            "type" : "CircleProgress",
+            "ringValue" : "signalValue"
+          },
+          "temp" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "75",
+              "x" : "75",
+              "width" : "150",
+              "height" : "40"
+            },
+            "fontName" : "AAabnes.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 255, 255, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "10",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[temperature]°[temptype]",
+            "numberOfLines" : "1"
+          },
+          "date" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "95",
+              "x" : "75",
+              "width" : "150",
+              "height" : "40"
+            },
+            "fontName" : "AAabnes.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 255, 255, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "10",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[monthnumber]\/[date]\/[shortyear]",
+            "numberOfLines" : "1"
+          },
+          "batt" : {
+            "ringBackground" : "NO",
+            "alpha" : "1",
+            "ringWidth" : "1",
+            "frame" : {
+              "y" : "127",
+              "x" : "72",
+              "width" : "21",
+              "height" : "18"
+            },
+            "ringColor" : "rgba(0, 255, 255, 1.00)",
+            "ringBackgroundColor" : "rgba(0, 0, 0, 0.00)",
+            "ringCap" : "round",
+            "type" : "CircleProgress",
+            "ringValue" : "batteryValue"
+          },
+          "cond" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "140",
+              "x" : "70",
+              "width" : "160",
+              "height" : "40"
+            },
+            "fontName" : "AAabnes.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(0, 255, 255, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "9",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[condition]",
+            "numberOfLines" : "1"
+          },
+          "clock" : {
+            "alpha" : "1",
+            "frame" : {
+              "y" : "36",
+              "x" : "51",
+              "width" : "200",
+              "height" : "200"
+            },
+            "secondImage" : "CyanClockSec.png",
+            "hourImage" : "CyanClockHr.png",
+            "minuteImage" : "CyanClockMin.png",
+            "type" : "AnalogClock",
+            "backgroundImage" : "transp.png",
+            "scale" : "0.82"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "batt,cell,wind,clock,temp,city,cond,date,base",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "followWidthItem" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
