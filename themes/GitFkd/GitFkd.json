@@ -3,20 +3,20 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "children" : {
       "scale_me" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "animation" : "none",
+        "cutWithView" : "none",
         "frame" : {
           "y" : "-25",
           "x" : "center",
@@ -33,11 +33,11 @@
           "cont" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "actions" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "0",
               "x" : "0",
@@ -92,11 +92,11 @@
               "condition" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
-                "blurColor" : "dark",
+                "cutWithView" : "none",
                 "frame" : {
                   "y" : "63",
                   "x" : "362",
@@ -113,9 +113,9 @@
                   "tempbase_1" : {
                     "textShadow" : {
                       "y" : "0",
-                      "radius" : "0.4",
+                      "color" : "rgba(255, 255, 255, 1.00)",
                       "x" : "0",
-                      "color" : "rgba(255, 255, 255, 1.00)"
+                      "radius" : "0.4"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -145,9 +145,9 @@
                   "temp_1" : {
                     "textShadow" : {
                       "y" : "3",
-                      "radius" : "3",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "3"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -191,16 +191,16 @@
                 "userInteraction" : "YES",
                 "animation" : "none",
                 "actions" : "none",
-                "cutWithView" : "none"
+                "blurColor" : "dark"
               },
               "bars" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "actions" : "none",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "75",
                   "x" : "25",
@@ -217,9 +217,9 @@
                   "attbase" : {
                     "textShadow" : {
                       "y" : "0",
-                      "radius" : "1",
+                      "color" : "rgba(255, 255, 255, 1.00)",
                       "x" : "0",
-                      "color" : "rgba(255, 255, 255, 1.00)"
+                      "radius" : "1"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -272,9 +272,9 @@
                   "perc" : {
                     "textShadow" : {
                       "y" : "0",
-                      "radius" : "0.1",
+                      "color" : "rgba(255, 255, 255, 1.00)",
                       "x" : "0",
-                      "color" : "rgba(255, 255, 255, 1.00)"
+                      "radius" : "0.1"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -304,9 +304,9 @@
                   "day" : {
                     "textShadow" : {
                       "y" : "3",
-                      "radius" : "3",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "3"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -350,9 +350,9 @@
                   "daybase" : {
                     "textShadow" : {
                       "y" : "0",
-                      "radius" : "1",
+                      "color" : "rgba(255, 255, 255, 1.00)",
                       "x" : "0",
-                      "color" : "rgba(255, 255, 255, 1.00)"
+                      "radius" : "1"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -419,9 +419,9 @@
                   "att" : {
                     "textShadow" : {
                       "y" : "3",
-                      "radius" : "3",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "3"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -461,20 +461,20 @@
                 "gradientImage" : "none",
                 "maskURL" : "none",
                 "followWidthItem" : "none",
+                "actions" : "none",
                 "cutWithView" : "perc",
                 "borderColor" : "rgba(255,255,255,0)",
                 "userInteraction" : "YES",
-                "animation" : "none",
-                "blurColor" : "dark"
+                "animation" : "none"
               },
               "tempcont" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
-                "cutWithView" : "none",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "95",
                   "x" : "370",
@@ -491,9 +491,9 @@
                   "temp" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -523,9 +523,9 @@
                   "tempbase" : {
                     "textShadow" : {
                       "y" : "0",
-                      "color" : "rgba(255, 255, 255, 1.00)",
+                      "radius" : "0.4",
                       "x" : "0",
-                      "radius" : "0.4"
+                      "color" : "rgba(255, 255, 255, 1.00)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -565,11 +565,11 @@
                 "gradientImage" : "none",
                 "maskURL" : "none",
                 "followWidthItem" : "none",
+                "cutWithView" : "none",
                 "borderColor" : "rgba(255,255,255,0)",
                 "userInteraction" : "YES",
                 "animation" : "none",
-                "actions" : "none",
-                "blurColor" : "dark"
+                "actions" : "none"
               },
               "button" : {
                 "SFWeight" : "none",
@@ -597,11 +597,11 @@
               "date" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
-                "blurColor" : "dark",
+                "actions" : "none",
                 "frame" : {
                   "y" : "67",
                   "x" : "32",
@@ -618,9 +618,9 @@
                   "temp_1_1" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -650,9 +650,9 @@
                   "tempbase_1_1" : {
                     "textShadow" : {
                       "y" : "0",
-                      "color" : "rgba(255, 255, 255, 1.00)",
+                      "radius" : "0.4",
                       "x" : "0",
-                      "radius" : "0.4"
+                      "color" : "rgba(255, 255, 255, 1.00)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -696,7 +696,7 @@
                 "borderColor" : "rgba(255,255,255,0)",
                 "userInteraction" : "YES",
                 "animation" : "none",
-                "actions" : "none"
+                "blurColor" : "dark"
               },
               "touch" : {
                 "SFWeight" : "none",
@@ -737,11 +737,11 @@
               "touchBox" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "cutWithView" : "none",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "202",
                   "x" : "231",
@@ -766,14 +766,14 @@
                 "gradientImage" : "none",
                 "maskURL" : "none",
                 "followWidthItem" : "none",
+                "cutWithView" : "none",
                 "borderColor" : "rgba(255,255,255,0)",
                 "userInteraction" : "YES",
                 "actions" : "animation",
                 "animation" : {
                   "cont" : "{ transition:flipfromtop,speed:0.7,alpha:0,}",
                   "forecast_base" : "{ transition:flipfromtop,speed:0.7,alpha:1,}"
-                },
-                "blurColor" : "dark"
+                }
               }
             },
             "blurAlpha" : "0",
@@ -788,20 +788,20 @@
             "gradientImage" : "none",
             "maskURL" : "none",
             "followWidthItem" : "none",
+            "actions" : "none",
             "cutWithView" : "none",
             "borderColor" : "rgba(255,255,255,0)",
             "animation" : "",
-            "userInteraction" : "YES",
-            "blurColor" : "dark"
+            "userInteraction" : "YES"
           },
           "forecast_base" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "animation" : "none",
+            "userInteraction" : "YES",
             "frame" : {
               "y" : "-30",
               "x" : "0",
@@ -841,11 +841,11 @@
               "day2c" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "blurColor" : "dark",
+                "actions" : "none",
                 "frame" : {
                   "y" : "75",
                   "x" : "120",
@@ -862,9 +862,9 @@
                   "day1_1" : {
                     "textShadow" : {
                       "y" : "1",
-                      "radius" : "0.7",
+                      "color" : "rgba(0, 0, 0, 1.00)",
                       "x" : "-1",
-                      "color" : "rgba(0, 0, 0, 1.00)"
+                      "radius" : "0.7"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -894,9 +894,9 @@
                   "day1temp_1" : {
                     "textShadow" : {
                       "y" : "0",
-                      "radius" : "1",
+                      "color" : "rgba(0, 0, 0, 1.00)",
                       "x" : "0",
-                      "color" : "rgba(0, 0, 0, 1.00)"
+                      "radius" : "1"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -940,39 +940,30 @@
                 "userInteraction" : "YES",
                 "borderColor" : "rgba(255,255,255,0)",
                 "animation" : "none",
-                "actions" : "none"
+                "blurColor" : "dark"
               },
-              "artist" : {
-                "textShadow" : {
-                  "y" : "3",
-                  "radius" : "2",
-                  "x" : "1",
-                  "color" : "rgba(0, 0, 0, 1.00)"
-                },
-                "fontNameAttr" : "none",
+              "forecast" : {
+                "SFWeight" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "SFColor" : "rgba(255,255,255,1)",
                 "frame" : {
-                  "y" : "210",
-                  "x" : "275",
-                  "width" : "190",
-                  "height" : "30"
+                  "y" : "26",
+                  "x" : "3",
+                  "width" : "490",
+                  "height" : "300"
                 },
-                "fontName" : "captian.otf",
-                "fontColorAttr" : "none",
-                "dataAttr" : "none",
-                "textColor" : "rgba(204, 202, 202, 1.00)",
-                "borderWidth" : "0",
-                "backgroundColor" : "rgba(255,255,255,0)",
-                "textAlignment" : "NSTextAlignmentLeft",
-                "type" : "UILabel",
-                "alpha" : "1",
-                "fontSize" : "20",
-                "gradientImage" : "none",
-                "fontSizeAttr" : "none",
-                "textStyle" : "none",
-                "kerning" : "0",
-                "borderColor" : "rgba(255,255,255,1)",
-                "data" : "[musicArtist]",
-                "numberOfLines" : "1"
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : "none",
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "RigelBaseWide.png",
+                "SFSymbolName" : "none",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
               },
               "wicon2" : {
                 "frame" : {
@@ -981,7 +972,7 @@
                   "width" : "100",
                   "height" : "100"
                 },
-                "forecast" : "day1",
+                "forecast" : "day2",
                 "imageIsBlack" : "none",
                 "type" : "WeatherIcon",
                 "iconSet" : "GitFkd",
@@ -1003,11 +994,11 @@
               "day1c" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "actions" : "none",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "65",
                   "x" : "10",
@@ -1024,9 +1015,9 @@
                   "day1" : {
                     "textShadow" : {
                       "y" : "1",
-                      "radius" : "0.7",
+                      "color" : "rgba(0, 0, 0, 1.00)",
                       "x" : "-1",
-                      "color" : "rgba(0, 0, 0, 1.00)"
+                      "radius" : "0.7"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -1056,9 +1047,9 @@
                   "day1temp" : {
                     "textShadow" : {
                       "y" : "0",
-                      "color" : "rgba(0, 0, 0, 1.00)",
+                      "radius" : "1",
                       "x" : "0",
-                      "radius" : "1"
+                      "color" : "rgba(0, 0, 0, 1.00)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -1098,11 +1089,11 @@
                 "gradientImage" : "none",
                 "maskURL" : "none",
                 "followWidthItem" : "none",
+                "actions" : "none",
                 "cutWithView" : "none",
                 "userInteraction" : "YES",
                 "borderColor" : "rgba(255,255,255,0)",
-                "animation" : "none",
-                "blurColor" : "dark"
+                "animation" : "none"
               },
               "song" : {
                 "borderColor" : "rgba(255,255,255,1)",
@@ -1129,9 +1120,9 @@
                 "fontName" : "earth.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "1",
+                  "color" : "rgba(0, 0, 0, 1.00)",
                   "x" : "1",
-                  "color" : "rgba(0, 0, 0, 1.00)"
+                  "radius" : "1"
                 },
                 "animationDelay" : "5"
               },
@@ -1164,11 +1155,11 @@
               "day4c" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "blurColor" : "dark",
+                "actions" : "none",
                 "frame" : {
                   "y" : "75",
                   "x" : "334",
@@ -1185,9 +1176,9 @@
                   "day1_1_1_1" : {
                     "textShadow" : {
                       "y" : "1",
-                      "radius" : "0.7",
+                      "color" : "rgba(0, 0, 0, 1.00)",
                       "x" : "-1",
-                      "color" : "rgba(0, 0, 0, 1.00)"
+                      "radius" : "0.7"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -1217,9 +1208,9 @@
                   "day1temp_1_1_1" : {
                     "textShadow" : {
                       "y" : "0",
-                      "radius" : "1",
+                      "color" : "rgba(0, 0, 0, 1.00)",
                       "x" : "0",
-                      "color" : "rgba(0, 0, 0, 1.00)"
+                      "radius" : "1"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -1263,7 +1254,7 @@
                 "userInteraction" : "YES",
                 "borderColor" : "rgba(255,255,255,0)",
                 "animation" : "none",
-                "actions" : "none"
+                "blurColor" : "dark"
               },
               "mbar" : {
                 "radius" : "2.5",
@@ -1303,14 +1294,27 @@
                 "cornerRadius" : "0",
                 "imageColor" : "none"
               },
+              "wicon4" : {
+                "frame" : {
+                  "y" : "95",
+                  "x" : "355",
+                  "width" : "100",
+                  "height" : "100"
+                },
+                "forecast" : "day4",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "GitFkd",
+                "imageColor" : "none"
+              },
               "day3c" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "blurColor" : "dark",
+                "actions" : "none",
                 "frame" : {
                   "y" : "75",
                   "x" : "230",
@@ -1327,9 +1331,9 @@
                   "day1_1_1" : {
                     "textShadow" : {
                       "y" : "1",
-                      "color" : "rgba(0, 0, 0, 1.00)",
+                      "radius" : "0.7",
                       "x" : "-1",
-                      "radius" : "0.7"
+                      "color" : "rgba(0, 0, 0, 1.00)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -1359,9 +1363,9 @@
                   "day1temp_1_1" : {
                     "textShadow" : {
                       "y" : "1",
-                      "color" : "rgba(0, 0, 0, 1.00)",
+                      "radius" : "0.7",
                       "x" : "-1",
-                      "radius" : "0.7"
+                      "color" : "rgba(0, 0, 0, 1.00)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -1405,7 +1409,7 @@
                 "userInteraction" : "YES",
                 "borderColor" : "rgba(255,255,255,0)",
                 "animation" : "none",
-                "actions" : "none"
+                "blurColor" : "dark"
               },
               "next" : {
                 "SFWeight" : "none",
@@ -1430,41 +1434,37 @@
                 "cornerRadius" : "0",
                 "imageColor" : "none"
               },
-              "forecast" : {
-                "SFWeight" : "none",
-                "maskURL" : "none",
-                "actions" : "none",
-                "SFColor" : "rgba(255,255,255,1)",
-                "frame" : {
-                  "y" : "26",
-                  "x" : "3",
-                  "width" : "490",
-                  "height" : "300"
+              "artist" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0, 0, 0, 1.00)",
+                  "x" : "1",
+                  "radius" : "2"
                 },
-                "contentMode" : "scaleAspectFit",
-                "type" : "UIImageView",
-                "animation" : "none",
-                "imageFolder" : "none",
-                "pauseImage" : "none",
-                "imageIsBlack" : "none",
-                "isAlbumArt" : "0",
-                "imageURL" : "RigelBaseWide.png",
-                "SFSymbolName" : "none",
-                "cornerRadius" : "0",
-                "imageColor" : "none"
-              },
-              "wicon4" : {
+                "fontNameAttr" : "none",
                 "frame" : {
-                  "y" : "95",
-                  "x" : "355",
-                  "width" : "100",
-                  "height" : "100"
+                  "y" : "210",
+                  "x" : "275",
+                  "width" : "190",
+                  "height" : "30"
                 },
-                "forecast" : "day1",
-                "imageIsBlack" : "none",
-                "type" : "WeatherIcon",
-                "iconSet" : "GitFkd",
-                "imageColor" : "none"
+                "fontName" : "captian.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(204, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "20",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[musicArtist]",
+                "numberOfLines" : "1"
               },
               "wicon3" : {
                 "frame" : {
@@ -1473,7 +1473,7 @@
                   "width" : "100",
                   "height" : "100"
                 },
-                "forecast" : "day1",
+                "forecast" : "day3",
                 "imageIsBlack" : "none",
                 "type" : "WeatherIcon",
                 "iconSet" : "GitFkd",
@@ -1494,8 +1494,8 @@
             "followWidthItem" : "none",
             "actions" : "none",
             "cutWithView" : "none",
+            "animation" : "none",
             "borderColor" : "rgba(255,255,255,0)",
-            "userInteraction" : "YES",
             "blurColor" : "dark"
           }
         },
@@ -1513,8 +1513,8 @@
         "followWidthItem" : "none",
         "borderColor" : "rgba(255,255,255,0)",
         "actions" : "none",
+        "animation" : "none",
         "userInteraction" : "YES",
-        "cutWithView" : "none",
         "blurColor" : "dark"
       }
     }
