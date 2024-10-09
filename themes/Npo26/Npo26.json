@@ -3,18 +3,18 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "userInteractionEnabled" : "NO",
       "height" : "screen_height",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "children" : {
       "Scale_me" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "blurColor" : "dark",
         "frame" : {
@@ -33,13 +33,11 @@
           "BL" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "animation" : {
-              "BL" : "{alpha:0,}"
-            },
+            "borderColor" : "rgba(255,255,255,0)",
             "frame" : {
               "y" : "100",
               "x" : "0",
@@ -56,9 +54,9 @@
               "temp_stroke_1" : {
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -88,16 +86,16 @@
               "time_label_stroke_1" : {
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
                   "y" : "16",
                   "x" : "20",
                   "width" : "360",
-                  "height" : "170"
+                  "height" : "169"
                 },
                 "fontName" : "Ndot-55-stroke-thin.otf",
                 "fontColorAttr" : "none",
@@ -108,7 +106,7 @@
                 "textAlignment" : "NSTextAlignmentLeft",
                 "type" : "UILabel",
                 "alpha" : "1",
-                "fontSize" : "110",
+                "fontSize" : "107",
                 "gradientImage" : "multigradient2.png",
                 "fontSizeAttr" : "none",
                 "textStyle" : "lowercase",
@@ -120,13 +118,13 @@
               "date_stroke_1" : {
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
-                  "y" : "96",
+                  "y" : "95",
                   "x" : "20",
                   "width" : "360",
                   "height" : "170"
@@ -140,7 +138,7 @@
                 "textAlignment" : "NSTextAlignmentLeft",
                 "type" : "UILabel",
                 "alpha" : "1",
-                "fontSize" : "60",
+                "fontSize" : "59",
                 "gradientImage" : "multigradient2.png",
                 "fontSizeAttr" : "none",
                 "textStyle" : "lowercase",
@@ -156,7 +154,7 @@
             "childorder" : "temp_stroke_1,time_label_stroke_1,date_stroke_1",
             "rotate" : "0",
             "blurIntensity" : "10",
-            "alpha" : "0",
+            "alpha" : "1",
             "triggerOnWake" : "none",
             "scale" : "0",
             "gradientImage" : "none",
@@ -164,16 +162,18 @@
             "followWidthItem" : "none",
             "actions" : "animation",
             "userInteraction" : "YES",
+            "animation" : {
+              "BL" : "{alpha:0,}"
+            },
             "cutWithView" : "none",
-            "borderColor" : "rgba(255,255,255,0)",
             "blurColor" : "dark"
           },
           "TL" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "blurColor" : "dark",
             "frame" : {
@@ -192,9 +192,9 @@
               "temp" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -224,9 +224,9 @@
               "date" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -244,7 +244,7 @@
                 "textAlignment" : "NSTextAlignmentLeft",
                 "type" : "UILabel",
                 "alpha" : "1",
-                "fontSize" : "60",
+                "fontSize" : "59",
                 "gradientImage" : "multigradient.png",
                 "fontSizeAttr" : "none",
                 "textStyle" : "lowercase",
@@ -256,9 +256,9 @@
               "time_label" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -276,7 +276,7 @@
                 "textAlignment" : "NSTextAlignmentLeft",
                 "type" : "UILabel",
                 "alpha" : "1",
-                "fontSize" : "110",
+                "fontSize" : "107",
                 "gradientImage" : "multigradient.png",
                 "fontSizeAttr" : "none",
                 "textStyle" : "lowercase",
@@ -298,13 +298,13 @@
             "gradientImage" : "none",
             "maskURL" : "none",
             "followWidthItem" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
             "actions" : "animation",
             "userInteraction" : "YES",
             "animation" : {
               "BL" : "{ alpha:1,speed:1.7,wait:0.7,}"
             },
-            "cutWithView" : "none",
-            "borderColor" : "rgba(255,255,255,0)"
+            "cutWithView" : "none"
           }
         },
         "blurAlpha" : "0",
@@ -319,11 +319,11 @@
         "gradientImage" : "none",
         "maskURL" : "none",
         "followWidthItem" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
         "actions" : "none",
         "userInteraction" : "YES",
         "animation" : "none",
-        "cutWithView" : "none",
-        "borderColor" : "rgba(255,255,255,0)"
+        "cutWithView" : "none"
       }
     }
   }
