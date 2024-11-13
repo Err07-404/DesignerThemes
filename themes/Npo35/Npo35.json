@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "height" : "screen_height",
       "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width",
-      "height" : "screen_height"
+      "width" : "screen_width"
     },
     "order" : [
       "Scale_me"
@@ -15,11 +15,11 @@
       "Scale_me" : {
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
-        "cutWithView" : "none",
+        "animation" : "none",
         "frame" : {
           "y" : "center",
           "x" : "center",
@@ -33,44 +33,12 @@
         "showWhenPlaying" : "NO",
         "followWidthOffset" : "x,y",
         "children" : {
-          "year" : {
-            "textShadow" : {
-              "y" : "3",
-              "radius" : "3",
-              "x" : "0",
-              "color" : "rgba(0,0,0,0)"
-            },
-            "fontNameAttr" : "none",
-            "frame" : {
-              "y" : "294",
-              "x" : "0",
-              "width" : "165",
-              "height" : "110"
-            },
-            "fontName" : "NeonWhite-Regular.ttf",
-            "fontColorAttr" : "none",
-            "dataAttr" : "none",
-            "textColor" : "rgba(255,255,255,1.0)",
-            "borderWidth" : "0",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "textAlignment" : "NSTextAlignmentLeft",
-            "type" : "UILabel",
-            "alpha" : "1",
-            "fontSize" : "20",
-            "gradientImage" : "none",
-            "fontSizeAttr" : "none",
-            "textStyle" : "none",
-            "kerning" : "0",
-            "borderColor" : "rgba(255,255,255,1)",
-            "data" : " [year]",
-            "numberOfLines" : "1"
-          },
           "temp" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -100,9 +68,9 @@
           "month" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -132,9 +100,9 @@
           "day" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -164,16 +132,16 @@
           "time_label" : {
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none",
             "frame" : {
-              "y" : "24",
+              "y" : "14",
               "x" : "center",
               "width" : "300",
-              "height" : "125"
+              "height" : "145"
             },
             "fontName" : "NeonPink-Regular.ttf",
             "fontColorAttr" : "none",
@@ -192,6 +160,38 @@
             "borderColor" : "rgba(255,255,255,1)",
             "data" : "[paddedhour]:[minute]",
             "numberOfLines" : "1"
+          },
+          "year" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "294",
+              "x" : "0",
+              "width" : "165",
+              "height" : "110"
+            },
+            "fontName" : "NeonWhite-Regular.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "20",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : " [year]",
+            "numberOfLines" : "1"
           }
         },
         "blurAlpha" : "0",
@@ -206,10 +206,10 @@
         "gradientImage" : "none",
         "maskURL" : "none",
         "followWidthItem" : "none",
+        "cutWithView" : "none",
         "borderColor" : "rgba(255,255,255,0)",
         "userInteraction" : "YES",
         "actions" : "none",
-        "animation" : "none",
         "blurColor" : "dark"
       }
     }
