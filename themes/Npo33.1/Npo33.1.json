@@ -1,0 +1,315 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "Scale_me" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(194, 194, 194, 0.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "actions" : "none",
+        "frame" : {
+          "y" : "-20",
+          "x" : "0",
+          "width" : "400",
+          "height" : "400"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "followWidthOffset" : "x,y",
+        "children" : {
+          "cond" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(194, 194, 194, 0.00)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "animation" : "none",
+            "frame" : {
+              "y" : "-90",
+              "x" : "105",
+              "width" : "380",
+              "height" : "400"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "followWidthOffset" : "x,y",
+            "children" : {
+              "time_label_1_2" : {
+                "textShadow" : {
+                  "y" : "13",
+                  "radius" : "8",
+                  "x" : "0",
+                  "color" : "rgba(0, 0, 0, 1.00)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "20",
+                  "width" : "830",
+                  "height" : "180"
+                },
+                "fontName" : "skyhub-skyhub-svg-400.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(33, 33, 33, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "100",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "uppercase",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[condition]",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "time_label_1_2",
+            "rotate" : "90",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0.55",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "followWidthItem" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
+          },
+          "wicon" : {
+            "frame" : {
+              "y" : "192",
+              "x" : "185",
+              "width" : "110",
+              "height" : "105"
+            },
+            "forecast" : "none",
+            "imageIsBlack" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "SLPurple",
+            "imageColor" : "none"
+          },
+          "temp" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(194, 194, 194, 0.00)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "actions" : "none",
+            "frame" : {
+              "y" : "95",
+              "x" : "-45",
+              "width" : "380",
+              "height" : "400"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "followWidthOffset" : "x,y",
+            "children" : {
+              "time_label_1_1" : {
+                "textShadow" : {
+                  "y" : "13",
+                  "radius" : "8",
+                  "x" : "0",
+                  "color" : "rgba(0, 0, 0, 1.00)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "-65",
+                  "width" : "380",
+                  "height" : "180"
+                },
+                "fontName" : "citygraf-citygraf-svg-400.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(33, 33, 33, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "120",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[temperature]°[temptype]",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "time_label_1_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0.55",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "followWidthItem" : "none",
+            "cutWithView" : "none",
+            "userInteraction" : "YES",
+            "animation" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "blurColor" : "dark"
+          },
+          "time_label" : {
+            "textShadow" : {
+              "y" : "13",
+              "radius" : "8",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "-30",
+              "x" : "9",
+              "width" : "400",
+              "height" : "180"
+            },
+            "fontName" : "citygraf-citygraf-svg-400.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(33, 33, 33, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "120",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[paddedhour]:[minute]",
+            "numberOfLines" : "1"
+          },
+          "date" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(194, 194, 194, 0.00)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "20",
+              "x" : "-90",
+              "width" : "380",
+              "height" : "400"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "followWidthOffset" : "x,y",
+            "children" : {
+              "time_label_1" : {
+                "textShadow" : {
+                  "y" : "13",
+                  "color" : "rgba(0, 0, 0, 1.00)",
+                  "x" : "0",
+                  "radius" : "8"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "20",
+                  "width" : "480",
+                  "height" : "180"
+                },
+                "fontName" : "citygraf-citygraf-svg-400.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(33, 33, 33, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "100",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[monthnumber]\/[date]\/[shortyear]",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "time_label_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0.55",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "followWidthItem" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "userInteraction" : "YES",
+            "animation" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time_label,date,temp,wicon,cond",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0.88",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "followWidthItem" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
+        "userInteraction" : "YES",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
