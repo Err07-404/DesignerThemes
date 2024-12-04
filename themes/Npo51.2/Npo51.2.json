@@ -1,0 +1,118 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "minute" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "-40",
+          "x" : "70",
+          "width" : "250",
+          "height" : "220"
+        },
+        "fontName" : "aDeadPool.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "0",
+        "fontSize" : "50",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "69",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[minute]",
+        "numberOfLines" : "1"
+      },
+      "clip" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "userInteraction" : "YES",
+        "frame" : {
+          "y" : "100",
+          "x" : "center",
+          "width" : "300",
+          "height" : "180"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "followWidthOffset" : "x,y",
+        "children" : {
+          "time_label" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "-4",
+              "x" : "1",
+              "width" : "300",
+              "height" : "180"
+            },
+            "fontName" : "aDeadPool.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "200",
+            "gradientImage" : "multigradient.png",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "4",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[paddedhour]",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "time_label",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "0.74",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "followWidthItem" : "none",
+        "actions" : "none",
+        "cutWithView" : "minute",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
