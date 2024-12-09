@@ -1,0 +1,297 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "perc" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "204",
+          "x" : "230",
+          "width" : "150",
+          "height" : "40"
+        },
+        "fontName" : "SSEngraved-Deeper-sbix.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "19",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[batterypercent]",
+        "numberOfLines" : "1"
+      },
+      "day" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "25",
+          "x" : "center",
+          "width" : "270",
+          "height" : "65"
+        },
+        "fontName" : "SSEngraved-Deeper-sbix.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "30",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[day]",
+        "numberOfLines" : "1"
+      },
+      "time_label" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "53",
+          "x" : "center",
+          "width" : "350",
+          "height" : "210"
+        },
+        "fontName" : "SSEngraved-Deeper-sbix.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "75",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]:[minute]",
+        "numberOfLines" : "1"
+      },
+      "temp" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "465",
+          "x" : "25",
+          "width" : "340",
+          "height" : "170"
+        },
+        "fontName" : "SSEngraved-Deeper-sbix.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentRight",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "65",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[temperature]°[temptype]",
+        "numberOfLines" : "3"
+      },
+      "date" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "590",
+          "x" : "20",
+          "width" : "340",
+          "height" : "85"
+        },
+        "fontName" : "SSEngraved-Deeper-sbix.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentRight",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "40",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[monthnumber]\/[date]\/[shortyear]",
+        "numberOfLines" : "3"
+      },
+      "batt" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "170",
+          "x" : "35",
+          "width" : "300",
+          "height" : "100"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "b" : {
+            "SFWeight" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "SFColor" : "rgba(255,255,255,1)",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "300",
+              "height" : "100"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "ParadigmBatteryOutline.png",
+            "SFSymbolName" : "none",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          },
+          "bbar" : {
+            "radius" : "2",
+            "lowColor" : "rgba(234, 51, 35, 0.00)",
+            "backColor" : "rgba(0, 0, 0, 0.00)",
+            "frame" : {
+              "y" : "14",
+              "x" : "28",
+              "width" : "238",
+              "height" : "66"
+            },
+            "innerColor" : "rgba(117, 251, 76, 0.00)",
+            "borderWidth" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "BatteryBar",
+            "gradientImage" : "ParadigmBars2.png",
+            "midColor" : "rgba(241, 158, 83, 0.00)"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "bbar,b",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0.28",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
+        "animation" : "none",
+        "actions" : "none",
+        "cutWithView" : "none"
+      },
+      "ampm" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "78",
+          "x" : "188",
+          "width" : "300",
+          "height" : "180"
+        },
+        "fontName" : "SSEngraved-Deeper-sbix.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "25",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[ampm]",
+        "numberOfLines" : "1"
+      },
+      "wicon" : {
+        "frame" : {
+          "y" : "470",
+          "x" : "25",
+          "width" : "120",
+          "height" : "180"
+        },
+        "forecast" : "none",
+        "imageIsBlack" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Engraved",
+        "imageColor" : "none"
+      }
+    }
+  }
+}
